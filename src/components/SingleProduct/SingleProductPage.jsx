@@ -25,7 +25,7 @@ const SingleProductPage = ({addToCart}) => {
               {product.images.map((image, index) => (
                 <img
                   key={index}
-                  src={`http://localhost:5000/products/${image}`}
+                  src={`${config.apiURL}/products/${image}`}
                   alt={product.title}
                   className={selectedImage === index ? "selected_image" : ""}
                   onClick={() => setSelectedImage(index)}
@@ -34,7 +34,7 @@ const SingleProductPage = ({addToCart}) => {
             </div>
 
             <img
-              src={`http://localhost:5000/products/${product.images[selectedImage]}`}
+              src={`${config.apiURL}/products/${product.images[selectedImage]}`}
               alt={product.title}
               className="single_product_display"
             />

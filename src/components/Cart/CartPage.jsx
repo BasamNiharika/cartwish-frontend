@@ -51,7 +51,7 @@ const CartPage = () => {
     <section className="cart_page align_center">
       <div className="align_center user_info">
         <img
-          src={`http://localhost:5000/profile/${userObj?.profilePic}`}
+          src={`${config.apiURL}/profile/${userObj?.profilePic}`}
           alt="user profile"
         />
         <div>

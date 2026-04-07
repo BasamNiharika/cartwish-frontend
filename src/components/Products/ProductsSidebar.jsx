@@ -18,7 +18,7 @@ const ProductsSidebar = () => {
             id={category._id}
             title={category.name}
             link={`/products?category=${category.name}`}
-            emoji={`http://localhost:5000/category/${category.image}`}
+            emoji={`${config.apiURL}/category/${category.image}`}
             sidebar={true}
           />
         ))}
