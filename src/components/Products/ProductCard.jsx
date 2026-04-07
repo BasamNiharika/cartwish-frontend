@@ -1,5 +1,6 @@
 import React, { memo, useContext } from "react";
 import { NavLink } from "react-router-dom";
+import config from '../../config.json';
 
 import iphone from "../../assets/iphone.jpg";
 import star from "../../assets/white-star.png";

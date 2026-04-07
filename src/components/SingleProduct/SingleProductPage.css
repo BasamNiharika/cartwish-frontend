@@ -1,6 +1,10 @@
 .single_product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     padding: 32px 48px;
+    min-height: 100vh;
 }
 
 .single_product_thumbnails {

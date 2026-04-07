@@ -1,4 +1,5 @@
 import React from "react";
+import config from '../../config.json';
 
 import "./ProductsSidebar.css";
 import LinkWIthIcon from "./../Navbar/LinkWIthIcon";

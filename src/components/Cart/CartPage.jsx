@@ -1,5 +1,6 @@
 import React, { memo, useContext, useEffect, useMemo, useState } from "react";
 import { toast } from "react-toastify";
+import config from '../../config.json';
 
 // import user from "../../assets/user.webp";
 
